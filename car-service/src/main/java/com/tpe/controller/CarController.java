@@ -23,7 +23,7 @@ public class CarController {
 
         carService.createCar(carRequest);
 
-        return new ResponseEntity<>("Car is created successfully", HttpStatus.CREATED);
+        return new ResponseEntity<>("Car is created successfully", HttpStatus.CREATED);//201
 
     }
 

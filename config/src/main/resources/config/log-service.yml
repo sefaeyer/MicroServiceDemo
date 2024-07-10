@@ -7,3 +7,4 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost:27017/logdb
+      # !!! MongoDB adresini veriyorum, default db verdigim icin username ve pass yazmaya gerek yok
