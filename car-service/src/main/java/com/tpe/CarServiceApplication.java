@@ -31,7 +31,7 @@ public class CarServiceApplication {
 		// adlandırma kurallarına uygun olarak, hedef sınıftaki alanları belirler ve bu alanlar arasında
 		// veri eşleştirmesi yapar.
 
-		return modelMapper;
+		return modelMapper;//return mapper
 
 	}
 
